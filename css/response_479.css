@@ -1,0 +1,49 @@
+@media (max-width: 479px) {
+
+    footer .btn {
+        width: 100%;
+        margin-top: 15px;
+    }
+    header .btn {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .bottom .contacts {
+        flex-direction: column;
+        width: 100%;
+    }
+    .bottom .contacts .contact {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .bottom .logo img {
+        width: 250px;
+    }
+    .header_description .title {
+        margin-top: 10px;
+        font-size: 24px;
+    }
+    .articles {
+        padding: 30px 0;
+    }
+    footer {
+        padding: 30px 0;
+    }
+    footer .bottom {
+        margin-bottom: 20px;
+    }
+    .modal {
+        padding: 25px 20px;
+    }
+    .modal .btn {
+        height: 60px;
+    } 
+    .modal_title {
+        margin-bottom: 15px;
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+
+   
+}

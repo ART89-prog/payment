@@ -1,0 +1,120 @@
+@media print, (max-width: 1023px) {
+ 
+    :root
+    {
+        --font_size: 15px;
+    }
+
+  
+
+    header .mob_menu_btn {
+        display: flex;
+    }
+    header .menu {
+        position: fixed;
+        z-index: 101;
+        top: 0;
+        left: 0;
+
+        display: flex;
+        overflow: auto;
+
+        width: 310px;
+        height: 100%;
+        min-height: -moz-available;
+        min-height: -webkit-fill-available;
+        min-height:         fill-available;
+        margin: 0;
+        padding: 65px 20px;
+
+        transition: transform .3s linear;
+        transform: translateX(-100%);
+
+        background: #fff;
+
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+    header .menu.show
+    {
+        transform: translateX(0);
+    }
+    header .menu .close_btn
+    {
+        display: flex;
+    }
+    header .menu .item
+    {
+        width: 100%;
+    }
+
+    header .menu .item + .item
+    {
+        margin-left: 0;
+    }
+
+    header .menu .item > a
+    {
+        display: block;
+
+        height: auto;
+        padding: 17px 0;
+
+        text-align: left;
+        color: #000;
+    }
+    .breadcrumbs {
+        font-size: 14px;
+    }
+    .breadcrumbs a {
+        font-size: 14px;
+    }
+    .breadcrumbs .sep {
+        font-size: 14px;
+    }
+    .header_description {
+        margin-top: 70px;
+    }
+    .header_description .title {
+        margin-top: 20px;
+        font-size: 35px;
+        line-height: 1.4;
+    }
+
+    .text_block img {
+        width: 350px;
+        height: 225px;
+    }
+    .text_block h2 {
+        font-size: 28px;
+        line-height: 32px;
+        margin-bottom: 9px;
+    }
+    .text_block p {
+        margin-bottom: 20px;
+    }
+    .articles {
+        padding: 50px 0;
+    }
+    .bottom .logo {
+        margin-right: 15px;
+    }
+    .bottom .logo img {
+        width: 250px;
+    }
+    .bottom .contacts .contact_phone {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 6px;
+    }
+    footer {
+        padding: 50px 0;
+    }
+
+
+
+
+    
+}
