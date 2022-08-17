@@ -1,12 +1,21 @@
 @media print, (max-width: 1187px) {
 
-    .text_block img {
-        margin-left: 20px;
-        width: 480px;
-        height: 308px;
+    .first_section {
+        padding-bottom: 50px;
     }
-
-
+    .first_section-img {
+        margin-right: 0;
+        width: 500px;
+        height: 531px;
+    }
+    .first_section .title {
+        font-size: 60px;
+        line-height: 1.2;
+        margin-bottom: 15px;
+    }
+    .first_section ul li {
+        font-size: 18px;
+    }
 
 
 

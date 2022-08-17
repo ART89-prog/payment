@@ -1,96 +1,136 @@
 @media print, (max-width: 767px) {
 
-    .header_description .title {
-        margin-top: 18px;
-        font-size: 28px;
+    :root
+    {
+        --font_size_title: 28px;
     }
-    .text_block .right {
-        float: none;
+    .first_section .cont {
+        flex-direction: column;
     }
-    .text_block img {
-        margin-top: 0;
-        margin-left: 0;
-        margin-bottom: 15px;
+    .first_section .info {
         width: 100%;
-        height: auto;
     }
-    header .bottom {
-        margin-top: 25px;
-        margin-bottom: 25px;
+    .first_section-img {
+        margin: 10px auto 0;
+        width: 420px;
+        height: 450px;
     }
-    .header_description {
-        margin-top: 40px;
+    .first_section {
+        padding-bottom: 10px;
     }
-    header {
-        padding-bottom: 35px;
+    header .logo {
+        margin-right: 15px;
+        font-size: 26px;
+        line-height: 1.2;
     }
-    .articles {
-        padding: 30px 0;
+    header .link .green {
+        width: 90px;
+        height: 35px;
+        line-height: 35px;
+        padding: 0px 10px;
     }
-    footer {
-        padding: 30px 0;
+    header .link .white {
+        width: 117px;
+        height: 35px;      
+        line-height: 35px;    
+        padding: 0px 10px;
     }
-    .text_block h2 {
-        font-size: 24px;
-        line-height: 28px;
-        margin-bottom: 12px;
-    }
-    .text_block p {
-        margin-bottom: 15px;
-    }
-    .bottom .logo img {
+    .first_section .link .green, 
+    .first_section .link .white {
         width: 200px;
     }
-    .breadcrumbs {
-        font-size: 12px;
+    .first_section .title {
+        font-size: 32px;
     }
-    .breadcrumbs a {
-        font-size: 12px;
-    }
-    .breadcrumbs .sep {
-        font-size: 12px;
-    }
-    .bottom .contacts .contact_mail {
-        font-size: 12px;
-    }
-    footer .adres {
+    .first_section ul li {
         font-size: 15px;
-        line-height: 18px;
-        margin-right: 15px;
     }
-    footer .info_link a {
-        font-size: 15px;
-        line-height: 18px;
-    }
-    footer .info_link {
+    .services_items {
         display: flex;
-        flex-direction: column;
-        align-items: center;        
-    }
-    .bottom {
-        flex-direction: column;
-        margin-bottom: 30px;
-    }
-    footer .info {
-        flex-direction: column;
-        align-items: center;
+        flex-wrap: wrap;
         justify-content: center;
+        margin-left: -30px;
+        margin-bottom: -40px;
     }
-    footer .adres {
-        margin-right: 0;
-        margin-bottom: 15px;
+    .services_items > * {
+        margin-left: 30px;
+        width: calc(100%/2 - 30px);
     }
-    .bottom .contacts .contact {
-        text-align: center;
+    .block_head,
+     .advantages .block_head {
+        margin-bottom: 25px;
     }
-    .bottom .contacts {
-        margin-top: 20px;
+    .advantages_text {
+        font-size: 16px;
     }
-    .bottom .contacts .contact_phone {
-        text-align: end;
+    .advantages_items {
+        margin-left: 0;
+        margin-bottom: -25px;
     }
-
-
+    .advantages_items > * {
+        margin-bottom: 25px;
+        width: 100%;
+        margin-left: 0;
+    }
+    .documents_item-icon img {
+        width: 45px;
+        height: 45px;
+    }
+    .documents_items > * {
+        padding: 20px 8px;
+    }
+    .documents_item-title {
+        font-size: 16px;
+        line-height: 123.8%;
+        margin-top: 10px;
+    }
+    .footer_items {
+        padding-top: 20px;
+    }
+    .footer_items {
+        flex-wrap: wrap;
+    }
+    .footer_items > * {
+        width: 100%;
+        margin-right: 0px;
+    }
+    .footer_item:nth-child(2) {
+        width: 100%;
+        margin-top: 0px;
+    }
+    .footer_item:nth-child(3) {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .footer_item .link {
+        flex-direction: row;
+        margin-top: 15px;
+    }
+    footer .link a:first-child {
+        margin-right: 13px;
+        margin-bottom: 0px;
+    }
+    .footer_item:nth-child(1) {
+        order: 1;
+        margin-top: 15px;
+    }
+    footer {
+        padding-bottom: 25px;
+    }
+    footer .copy {
+        margin-top: 15px;
+    }
+    .footer_item-title {
+        font-size: 17px;
+        margin-bottom: 3px;
+    }
+    footer .link .white,
+    footer .link .green {
+        width: 200px;
+    }
+    .documents {
+        margin-bottom: 35px;
+    }
 
 
 
