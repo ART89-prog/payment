@@ -61,10 +61,12 @@ $(() => {
     $('.open-menu').click(function(){
         $('.aside--lk').addClass('active');
         $('.overlay--lk').addClass('active');
+        $('.open-menu').addClass('active');
     });
     $('.overlay--lk').click(function(){
         $('.aside--lk').removeClass('active');
         $('.overlay--lk').removeClass('active');
+        $('.open-menu').removeClass('active');
     });
 
 

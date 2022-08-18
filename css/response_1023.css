@@ -208,10 +208,43 @@
     .header-mob {
         display: flex;
         margin-left: 20px;
+        order: 1;
     }
-    .open-menu img {
+    .header-mob .open-menu span {
+        position: relative;
+        display: block;
         width: 30px;
+        height: 2px;
+        transition: background .2s linear;
+        background: #000; 
     }
+    .header-mob .open-menu span:before, 
+    .header-mob .open-menu span:after {
+        position: absolute;
+        top: -8px;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 100%;
+        content: '';
+        transition: .2s linear;
+        background: #000;
+    }
+    .header-mob .open-menu span:after {
+        top: 8px;
+    }
+    .header-mob .open-menu.active span {
+        background: transparent;
+    }
+    .header-mob .open-menu.active span:before {
+        top: 0;
+        transform: rotate(45deg);
+    }
+    .header-mob .open-menu.active span:after {
+        top: 0;
+        transform: rotate(-45deg);
+    }
+
     .overlay--lk.active {
         display: block;
     }
@@ -222,6 +255,7 @@
     .main-content_aside .user {
         display: flex;
         align-items: center;
+        justify-content: space-between;
     }
     .main-content_aside .user_info {
         margin-right: 20px;
