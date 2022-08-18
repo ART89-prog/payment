@@ -207,6 +207,10 @@
     }
     .header-mob {
         display: flex;
+        margin-left: 20px;
+    }
+    .open-menu img {
+        width: 30px;
     }
     .overlay--lk.active {
         display: block;
@@ -227,31 +231,74 @@
         font-weight: 400;
         font-size: 13px;
         line-height: 16px;
-        color: #212121;
+        color: #fff;
     }
     .main-content_aside .user_name {
         font-weight: 600;
         font-size: 15px;
         line-height: 16px;
-        color: #212121;
+        color: #fff;
     }
     .main-content_aside .logout {
         width: 113px;
         height: 42px;
-        border: 1px solid #4E7524;
+        border: 1px solid #fff;
         border-radius: 9px;
         font-weight: 600;
         font-size: 15px;
         line-height: 42px;
         text-align: center;
-        color: #212121;
+        color: #fff;
         text-decoration: none;
     }
     .main-content_form {
         width: 100%;
     }
 
+ 
+    .lk .header .logo {
+        font-size: 30px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+    }
 
+
+    .form-item_title {
+        font-size: 20px;
+        position: relative;
+        margin-bottom: 20px;
+        padding-bottom: 8px;
+    }
+    .form-item_title::before {
+        width: 60px;
+        height: 1px;
+    }
+    .main-content_form label {
+        font-size: 14px;
+        width: 190px;
+    }
+    .main-content_form .field input,
+    .main-content_form .column,
+    .main-content_form textarea,
+    .main-content_form .file.file-uploader,
+    .main-content_form .nice-select {
+        width: calc(100% - 190px);
+    }
+    .main-content_form .field.valut input {
+        width: calc(100% - 250px);
+    }
+    .main-content_form .line .form-text.fst {
+        margin-left: 190px;
+    }
+    .main-content_form .field.valut span {
+        font-size: 18px;
+        margin-left: 14px;
+        margin-bottom: 9px;
+    }
+    .main-content_form {
+        padding: 30px 20px;
+    }
 
     
 }

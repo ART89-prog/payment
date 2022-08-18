@@ -89,6 +89,10 @@
         padding: 10px;
     }
 
+    .main-content_form .submit {
+        width: 100%;
+    }
+
 
    
 }
