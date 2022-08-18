@@ -116,6 +116,7 @@
     }
     footer {
         padding-bottom: 25px;
+        padding-top: 35px;
     }
     footer .copy {
         margin-top: 15px;
@@ -128,9 +129,7 @@
     footer .link .green {
         width: 200px;
     }
-    .documents {
-        margin-bottom: 35px;
-    }
+   
 
 
 

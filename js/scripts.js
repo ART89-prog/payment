@@ -54,6 +54,19 @@ $(() => {
         }])
     })
 
+    $('select').niceSelect();
+
+
+
+    $('.open-menu').click(function(){
+        $('.aside--lk').addClass('active');
+        $('.overlay--lk').addClass('active');
+    });
+    $('.overlay--lk').click(function(){
+        $('.aside--lk').removeClass('active');
+        $('.overlay--lk').removeClass('active');
+    });
+
 
     $(document).on('change', '.error', function () {
 

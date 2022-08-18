@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#DE041D">
+		<meta name="theme-color" content="#DE041D">
+
+		
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/fancybox.css">
+		<link rel="stylesheet" href="css/nice-select.css">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<link rel="stylesheet" href="css/response_1187.css" media="print, (max-width: 1187px)">
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)">
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)">
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main lk">
+				<!-- <header>
+					<div class="info">
+						<div class="cont">
+							<a href="#" class="logo">
+								Logotype
+							</a>
+
+							<button class="mob_menu_btn">
+								<img src="images/ic_mob_menu.svg" alt="">
+							</button>
+
+							<nav class="menu row">
+								<button class="close_btn">
+									<img src="images/ic_close.svg" alt="">
+								</button>
+
+								<div class="item">
+									<a href="/">About us</a>
+								</div>
+								<div class="item">
+									<a href="/">Our services</a>
+								</div>
+								<div class="item">
+									<a href="/">Contacts</a>
+								</div>							
+							</nav>
+							<div class="link">
+								<a href="#" class="login green">Login</a>
+								<a href="#" class="registration white">Registration</a>
+							</div>
+						</div>
+					</div>
+				</header> -->
+
+				<header class="header">
+					<div class="cont">
+						<div class="header-mob">
+							<button class="open-menu">
+								<img src="images/ic_mob_menu.svg" alt="">
+							</button>
+						</div>
+						<a href="" class="logo">
+							Logotype
+						</a>
+						<div class="user">
+							<div class="user_info">
+								<div class="user_text">Добро пожаловать!</div>
+								<div class="user_name">Иван Иванов</div>	
+							</div>
+							<a href="#" class="logout">Выйти</a>							
+						</div>						
+					</div>				
+				</header>
+
+
+
+				<div class="main-content">
+					<div class="main-content_body">						
+						<div class="main-content_aside aside--lk">
+							<div class="aside--lk__head">
+                                <div class="user">
+									<div class="user_info">
+										<div class="user_text">Добро пожаловать!</div>
+										<div class="user_name">Иван Иванов</div>	
+									</div>
+									<a href="#" class="logout">Выйти</a>							
+								</div>	
+                            </div>
+							<div class="lk-menu">
+								<a href="#" class="active">Создать платеж</a>								
+								<a href="#">История операций</a>
+								<a href="#">Получить выписку</a>
+								<a href="#">Сохраненные платежи</a>									
+								<a href="#" class="callback">Обратная связь</a>
+							</div>
+						</div>
+						<div class="overlay--lk"></div>
+						<form class="main-content_form">
+							<div class="main-content_form-title">Юрлицу</div>
+							<div class="form-item">
+								<div class="form-item_title">Плательщик</div>
+								<div class="line">
+									<div class="field">
+										<label for="name">Имя:</label>
+										<div class="name" id="name">Иванов Иван Иванович</div>
+									</div>
+								</div>
+								<div class="line">
+									<div class="field">
+										<label for="account">Счет:</label>
+										<select name="account" id="account">
+											<option value="account">123567576576754674567</option>
+											<option value="account">456567546777546754675</option>
+											<option value="account">785468767893423554559</option>
+										</select>										
+									</div>
+									<span class="form-text">Доступно: 56 000 USD</span>
+								</div>
+								<div class="line">
+									<div class="field">
+										<label for="bank">Наименование банка:</label>
+										<div class="name2" id="bank">Банк “Название банка”</div>
+									</div>
+								</div>
+								<div class="line">
+									<div class="field columns">	
+										<label for="adress">Адрес:</label>
+										<div class="column">
+											<input type="text" id="adress" placeholder="Страна">
+											<input type="text" id="adress" placeholder="Город">
+											<input type="text" id="adress" placeholder="Улица, дом, квартира">	
+										</div>							
+									</div>
+								</div>
+							</div>
+
+							<div class="form-item">
+								<div class="form-item_title">Получатель</div>
+								<div class="line">
+									<div class="field">
+										<label for="name2">Имя:</label>
+										<input type="text" id="name2">
+									</div>
+								</div>
+								<div class="line">
+									<div class="field">
+										<label for="account">Счет:</label>
+										<input type="text">										
+									</div>
+									<span class="form-text">Доступно: 56 000 USD</span>
+								</div>								
+								<div class="line">
+									<div class="field columns">	
+										<label for="adress">Адрес:</label>
+										<div class="column">
+											<input type="text" id="adress" placeholder="Страна">
+											<input type="text" id="adress" placeholder="Город">
+											<input type="text" id="adress" placeholder="Улица, дом, квартира">	
+										</div>							
+									</div>
+								</div>
+								<div class="line">
+									<div class="field">
+										<label for="account">SWIFT/БИК банка:</label>
+										<input type="text">																				
+									</div>
+									<span class="form-text fst">БИК для переводов внутри банка, SWIFT для переводов в другие банки</span>
+								</div>
+								<div class="line">
+									<div class="field">
+										<label for="name3">Банк:</label>
+										<input type="text" id="name3">
+									</div>
+								</div>
+								<div class="line">
+									<div class="field">
+										<label for="name4">Клиринговый код:</label>
+										<input type="text" id="name4">
+									</div>
+								</div>
+								<div class="line">
+									<div class="field">
+										<label for="name5">Корсчет:</label>
+										<input type="text" id="name5">
+									</div>
+								</div>	
+								<div class="line">
+									<div class="field columns">	
+										<label for="adress">Адрес:</label>
+										<div class="column">
+											<input type="text" id="adress" placeholder="Страна">
+											<input type="text" id="adress" placeholder="Город">
+											<input type="text" id="adress" placeholder="Улица, дом, квартира">	
+										</div>							
+									</div>
+								</div>
+							</div>
+						</form>
+						
+	
+					</div>
+				</div>
+
+
+			</div>
+
+
+			<footer>
+				<div class="cont">
+					<div class="footer_items">
+						<div class="footer_item">
+							<a href="#" class="footer_logo">
+								Logotype
+							</a>
+							<div class="copy">&#169; 2021 Copyright. All Rights Reserved. Internet banking software provided by Sterling Payment Services (HK)</div>
+						</div>
+						<div class="footer_item">
+							<div class="footer_item-title">About us</div>
+							<ul>
+								<li><a href="#">License</a></li>
+								<li><a href="#">Incorporation papers</a></li>
+								<li><a href="#">Privacy policy</a></li>
+								<li><a href="#">Cookie Policy</a></li>
+								<li><a href="#">Agreement</a></li>
+							</ul>
+						</div>
+						<div class="footer_item">
+							<div class="footer_item-title">Our services</div>
+							<ul>
+								<li><a href="#">Opening of corporate accounts</a></li>
+								<li><a href="#">SWIFT/SEPA payments</a></li>
+								<li><a href="#">Fiat currency Exchange (USD, EUR, GBP, RUB)</a></li>
+								<li><a href="#">Crypto Currency Exchange (Bitcoin, Ethereum, Dash, Zcash)</a></li>
+							</ul>
+						</div>
+						<div class="footer_item">
+							<div class="link">
+								<a href="#" class="login white">Login</a>
+								<a href="#" class="registration green">Registration</a>
+							</div>	
+						</div>
+					</div>
+				</div>
+			</footer>
+
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/lozad.min.js"></script>
+		<script src="js/jquery.nice-select.min.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/fancybox.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>
