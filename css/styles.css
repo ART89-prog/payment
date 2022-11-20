@@ -986,7 +986,7 @@ footer .link {
     display: flex;
     flex-direction: column;
     padding-top: 30px;
-    padding-bottom: 30px;
+    margin-bottom: 41px;
 }
 .main-content_aside .lk-menu a {
     font-weight: 600;
@@ -1001,8 +1001,8 @@ footer .link {
 }
 .main-content_aside .lk-menu a.active,
 .main-content_aside .lk-menu a:hover {
-	background: #fff;
-    color: #416718;
+	background: #416718;
+    color: #fff;
 }
 .main-content_aside .lk-menu .callback {
     background: #FFFFFF;
@@ -1340,4 +1340,73 @@ input:-ms-input-placeholder {
 
 .um-right.um-half{
     display: none;
+}
+
+
+
+/* forex */
+.forex_title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;    
+    color: #FFFFFF; 
+    margin-bottom: 23px;
+}
+.forex_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 14px;
+}
+.forex_valut {
+    display: flex;
+    align-items: center;
+}
+.forex_valut-text {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-right: 11px;
+}
+.forex_valut span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;    
+    color: rgba(255, 255, 255, 0.36);  
+}
+.forex_course {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: right;    
+    color: #FFFFFF; 
+}
+.forex_link {
+    margin-top: 23px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: underline;
+    color: #FFFFFF;
+    display: block;
+    transition: all .4s;
+}
+.forex_link:hover {
+    text-decoration: none;
+}
+
+
+
+
+/* history */
+.lk2 .main-content_body {
+    display: flex;
+    max-width: 1600px;
+    padding-right: 20px;
+}
+.history {
+    width: calc(100% - 301px);
+    padding-top: 44px;
+    padding-left: 59px;
 }
