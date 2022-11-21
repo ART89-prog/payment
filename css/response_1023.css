@@ -376,6 +376,9 @@
     .table-wrap {
         overflow-x: auto;
     }
+    .table-wrap::-webkit-scrollbar {
+        width: 0;
+    }
     table {
         white-space: nowrap;
     }

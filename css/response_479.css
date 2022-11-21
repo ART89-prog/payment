@@ -93,6 +93,34 @@
         width: 100%;
     }
 
+    .history table tbody tr td:nth-child(1) {
+        padding: 10px 20px 10px 10px;
+    }
+    .history table tbody tr td:nth-child(2) {
+        padding: 10px;
+    }
+    .history table tbody tr td:nth-child(3) {
+        padding: 10px 15px;
+    }
+    .history table tbody tr td:nth-child(4) {
+        padding: 10px;
+    }
+    .history table thead tr th:nth-child(4) {
+        padding: 5px 19px 5px 10px;
+    }
+    .history table thead tr th:nth-child(2) {
+        padding: 5px 10px;
+    }
+
+    .pay_item-info {
+        justify-content: space-between;
+        width: 100%;
+    }
+    .pay_item {
+        padding: 10px;
+    }
+
+
 
    
 }

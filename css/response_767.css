@@ -212,7 +212,21 @@
         width: calc(100%/2 - 15px);
     }
     .history {
-        margin-bottom: 40px;
+        margin-bottom: 20px;
+    }
+
+    .pay_item {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 15px;
+    }
+    .pay_item-title {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .pay .main-content_form-title {
+        margin-bottom: 20px;
     }
 
 

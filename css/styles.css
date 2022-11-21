@@ -1536,7 +1536,7 @@ input:-ms-input-placeholder {
     font-size: 15px;
     line-height: 18px;
     color: #212121;
-    padding: 12px 17px 12px 42px;
+    padding: 12px 30px 12px 42px;
 }
 .history_form .input_search input::-webkit-input-placeholder {
     font-weight: 400;
@@ -1565,6 +1565,22 @@ input:-ms-input-placeholder {
     line-height: 18px;
     color: #9A9A9A;
     font-family: var(--font_family);
+}
+input[type=text]::-ms-clear {  
+    display: none; 
+    width : 0; 
+    height: 0; 
+}
+input[type=text]::-ms-reveal {  
+    display: none; 
+    width : 0; 
+    height: 0; 
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { 
+    display: none; 
 }
 .history_form-text {
     font-weight: 700;
@@ -1705,4 +1721,68 @@ input:-ms-input-placeholder {
     text-align: end;
     width: 15%;
     white-space: nowrap;
+}
+
+
+.pay .main-content_form-title {
+    margin-left: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 113.8%;
+    color: #212121;
+    padding-bottom: 15px;
+    margin-bottom: 33px;
+}
+.pay .main-content_form-title::before {
+    width: 188px;
+    left: 0;
+}
+.pay .main-content_form-title::after {
+    left: 188px;
+    width: calc(100% - 188px);
+}
+.pay-date {
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 167.8%;
+    color: #4E7524;
+}
+.pay_item {    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 19px 23px;
+    background: #EEEEEE;
+    border-radius: 10px;
+    margin-bottom: 3px;
+}
+.pay_item:nth-child(2n) {
+    background: #F7F7F7;
+}
+.pay_item-title {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 167.8%;
+    color: #212121;
+    margin-right: 25px;
+}
+.pay_item-info {
+    display: flex;
+    align-items: center;
+}
+.pay_item-summa {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 167.8%;
+    color: #4E7524; 
+    margin-right: 40px;
+    white-space: nowrap;
+}
+.pay_item-link {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 167.8%;
+    text-decoration-line: underline;
+    color: #212121; 
 }
