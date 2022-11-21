@@ -1410,3 +1410,116 @@ input:-ms-input-placeholder {
     padding-top: 44px;
     padding-left: 59px;
 }
+.payment-account {
+    background: #F7F7F7;
+    border-radius: 10px;
+    padding: 25px 32px 30px;    
+}
+.payment-account_head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 14px;
+}
+.payment-account_title {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 113.8%;
+    color: #212121;
+}
+.payment-account_link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 113.8%;
+    text-decoration: underline;
+    color: #4E7524;
+}
+.payment-account_items {
+    display: flex;
+    margin-left: -21px;
+}
+.payment-account_items > * {
+    width: calc(100%/5 - 21px);
+    margin-left: 21px;
+    padding: 10px 17px 14px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.payment-account_item-title {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 113.8%;
+    color: #212121;
+    margin-bottom: 5px;
+}
+.payment-account_item-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 113.8%;
+    color: #212121;
+}
+
+.history table {
+    border-collapse: separate; 
+    border-spacing: 0 3px;    
+    width: 100%;
+    margin-bottom: 85px;
+}
+.history table thead tr th {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 167.8%;
+    color: #212121;    
+}
+.history table thead tr th:nth-child(1) {
+    padding: 5px 20px;
+    text-align: start;
+}
+.history table thead tr th:nth-child(2) {
+    padding: 5px 20px 5px 0;
+    text-align: start;
+}
+.history table thead tr th:nth-child(3) {
+    padding: 5px 15px 5px 35px;
+    text-align: end;
+}
+.history table thead tr th:nth-child(4) {
+    padding: 5px 40px 5px 10px;
+    text-align: end;
+}
+.history table tbody tr {
+    border-radius: 10px;
+    margin-bottom: 3px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 167.8%;
+    color: #212121;
+    vertical-align: top;
+}
+.history table tbody tr:nth-child(2n + 1) {
+    background: #EEEEEE;
+}
+.history table tbody tr:nth-child(2n) {    
+    background: #F7F7F7;
+}
+.history table tbody tr td:nth-child(1) {
+    padding: 19px 20px;
+    border-radius: 10px 0 0 10px;
+    width: 15%;
+}
+.history table tbody tr td:nth-child(2) {
+    padding: 19px 21px 19px 0;
+    width: 43%;
+}
+.history table tbody tr td:nth-child(3) {
+    padding: 19px 5px 19px 35px;
+    text-align: end;
+}
+.history table tbody tr td:nth-child(4) {
+    padding: 19px 33px 19px 5px;
+    border-radius: 0px 10px 10px 0;
+    color: #4E7524;
+    text-align: end;
+    width: 15%;
+    white-space: nowrap;
+}

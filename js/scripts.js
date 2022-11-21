@@ -56,7 +56,9 @@ $(() => {
 
     $('select').niceSelect();
 
+   
 
+    
 
     $('.open-menu').click(function(){
         $('.aside--lk').addClass('active');
