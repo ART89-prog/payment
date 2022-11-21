@@ -334,5 +334,57 @@
         padding: 30px 20px;
     }
 
+
+    .history {
+        width: 100%;
+        padding: 30px 20px;
+    }
+    .lk2 .main-content_body {
+        padding-right: 0px;
+    }
+    .payment-account {
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+    .payment-account_items {
+        margin-left: -15px;
+        margin-bottom: -15px;
+        flex-wrap: wrap;
+    }
+    .payment-account_items > * {
+        width: calc(100%/3 - 15px);
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+    .history_title {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    .history_form-wrap {
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+    .history table tbody tr td:nth-child(2) {
+        width: 50%;
+    }
+    .history table tbody tr td:nth-child(3) {
+        padding: 19px 15px 19px 15px;
+    }
+    .history table thead tr th:nth-child(3) {
+        padding: 5px 25px 5px 5px;
+    }    
+    .table-wrap {
+        overflow-x: auto;
+    }
+    table {
+        white-space: nowrap;
+    }
+    .history table tbody tr td:nth-child(2) {
+        white-space: initial;
+    }
+    .history {
+        margin-bottom: 50px;
+    }
+    
     
 }

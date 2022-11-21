@@ -56,8 +56,10 @@ $(() => {
 
     $('select').niceSelect();
 
-   
-
+    new AirDatepicker('.history_form input', {
+        range: true,
+        multipleDatesSeparator: ' - '
+    });
     
 
     $('.open-menu').click(function(){

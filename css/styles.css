@@ -1413,7 +1413,8 @@ input:-ms-input-placeholder {
 .payment-account {
     background: #F7F7F7;
     border-radius: 10px;
-    padding: 25px 32px 30px;    
+    padding: 25px 32px 30px;   
+    margin-bottom: 63px; 
 }
 .payment-account_head {
     display: flex;
@@ -1458,12 +1459,194 @@ input:-ms-input-placeholder {
     line-height: 113.8%;
     color: #212121;
 }
+.history_title {
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 113.8%;
+    color: #212121;
+    margin-bottom: 21px;
+}
+.history_form-wrap {
+    display: flex;
+    align-items: center;
+    padding: 18px 28px 15px;
+    background: #F7F7F7;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.history_form .input_calendar {
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    font-family: var(--font_family);
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #212121;
+    padding: 12px 17px;
+    margin-right: 13px;
+}
+.history_form .input_calendar::-webkit-input-placeholder {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #212121;
+    font-family: var(--font_family);
+}
+.history_form .input_calendar::-moz-placeholder {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #212121;
+    font-family: var(--font_family);
+}
+.history_form .input_calendar:-moz-placeholder {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #212121;
+    font-family: var(--font_family);
+}
+.history_form .input_calendar:-ms-input-placeholder {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #212121;
+    font-family: var(--font_family);
+}
+.history_form .input_search {
+    position: relative;
+    width: calc(100% - 217px);
+    height: 44px;
+}
+.history_form .input_search img {
+    position: absolute;
+    left: 17px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.history_form .input_search input {
+    position: relative;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    font-family: var(--font_family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #212121;
+    padding: 12px 17px 12px 42px;
+}
+.history_form .input_search input::-webkit-input-placeholder {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #9A9A9A;
+    font-family: var(--font_family);
+}
+.history_form .input_search input::-moz-placeholder {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #9A9A9A;
+    font-family: var(--font_family);
+}
+.history_form .input_search input:-moz-placeholder {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #9A9A9A;
+    font-family: var(--font_family);
+}
+.history_form .input_search input:-ms-input-placeholder {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #9A9A9A;
+    font-family: var(--font_family);
+}
+.history_form-text {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 167.8%;
+    color: #4E7524;
+    margin-left: 21px;
+    margin-bottom: 6px;
+}
+.air-datepicker-cell.-selected- {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #fff;
+    height: 28px;
+}
+.air-datepicker-cell {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #212121;
+}
+.air-datepicker-body--day-name {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #AAAAAA;
+}
+.air-datepicker-cell.-range-from- {
+    border-radius: 10px;
+}
+.air-datepicker.-inline- {
+    width: 245px;
+    padding: 20px;
+}
+.air-datepicker--navigation {
+    width: 245px;
+}
+.air-datepicker-cell.-in-range-:hover {
+    border-radius: 10px;
+    color: #212121;
+    background: #ECF8DE;
+}
+.air-datepicker-cell.-in-range- {
+    border-radius: 10px;
+    color: #212121;
+    background: #ECF8DE;   
+}
+.air-datepicker-nav--action path {
+    stroke: #4E7524;
+}
+.air-datepicker-nav--title,
+.air-datepicker-nav--title i {
+    font-family: var(--font_family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #212121;
+}
+.air-datepicker-cell {
+    margin: 4px;
+    height: 28px;
+}
+.air-datepicker-cell.-in-range- {
+    height: 28px;
+}
+.air-datepicker-nav {
+    border-bottom: none;
+}
 
+
+
+.history {
+    margin-bottom: 85px;
+}
 .history table {
     border-collapse: separate; 
     border-spacing: 0 3px;    
-    width: 100%;
-    margin-bottom: 85px;
+    width: 100%;    
 }
 .history table thead tr th {
     font-weight: 400;

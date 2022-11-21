@@ -197,6 +197,26 @@
         margin-top: 15px;
     }
 
+    .history_form-wrap {
+        flex-direction: column;        
+    }
+    .history_form .input_calendar {
+        margin-right: 0;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .history_form .input_search {
+        width: 100%;
+    }
+    .payment-account_items > * {
+        width: calc(100%/2 - 15px);
+    }
+    .history {
+        margin-bottom: 40px;
+    }
+
+
+
    
 
 
